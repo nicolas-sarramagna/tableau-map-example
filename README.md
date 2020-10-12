@@ -14,5 +14,5 @@ Les données traitées sont accessibles en Open Data au lien qui suit : [open-da
 
 
 
-
+# Extrapolation
 Pour étendre ce cas d'usage, une carte (Web) plus étendue sur la base de données publiques et contributives est disponible à cette adresse [http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr](http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr)
