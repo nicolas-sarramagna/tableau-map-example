@@ -18,7 +18,7 @@ Il est possible de filtrer par fruit en cliquant tout simplement sur le libellé
 # Livrables 
  - les données, un fichier csv les-arbres.csv (~31Mo) compressé en zip dans le repo : **[les-arbres.zip](les-arbres.zip)**
  - le classeur Tableau Desktop : **[Tableau_map_cueillette_automnale_fruits_paris.twb](Tableau_map_cueillette_automnale_fruits_paris.twb)**
-Utilisation de Tableau Desktop 2020.3 mais compatible avec d'anciennes versions.
+Le classeur a été construit avec Tableau Desktop version 2020.3 mais il est compatible avec d'anciennes versions.
 
 # Etapes détaillées de construction
 
@@ -36,3 +36,5 @@ Utilisation de Tableau Desktop 2020.3 mais compatible avec d'anciennes versions.
 
 # Extrapolation
 Pour étendre ce cas d'usage, une carte (Web) plus étendue sur la base de données publiques et contributives est disponible à cette adresse [http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr](http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr)
+
+Bonne cueillette !
