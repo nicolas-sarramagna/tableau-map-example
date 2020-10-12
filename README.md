@@ -10,9 +10,10 @@ Les données traitées sont accessibles en Open Data au lien qui suit : [open-da
 ).
 
 # Résultat
+Le tableau de bord résultant donne le rendu suivant : ![Rendu final](Tableau%20Desktop%20-%20Map%20-%20Cueillette%20automnale%20de%20fruits%20paris.PNG)
 
-
-
+Il est possible de filtrer par fruit en cliquant tout simplement sur le libellé du fruit en haut à droite, exemple :
+![Rendu final filtre](Tableau%20Desktop%20-%20Map%20-%20filtre%20pommier%20paris.PNG)
 
 # Extrapolation
 Pour étendre ce cas d'usage, une carte (Web) plus étendue sur la base de données publiques et contributives est disponible à cette adresse [http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr](http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr)
