@@ -10,7 +10,7 @@ Les données utilisées sont accessibles en Open Data au lien qui suit : [open-d
 ).
 
 # Résultat
-Le tableau de bord donne le rendu suivant, extrait : ![Rendu final](/screenshots/Tableau%20Desktop%20-%20map%20-%20cueillette%20automnale%20de%20fruits%20paris.PNG)
+Le tableau de bord donne le rendu suivant, extrait : ![Rendu final](/screenshots/Tableau%20Desktop%20-%20map%20-%20cueillette%20automnale%20de%20fruits%20paris%20v2.PNG)
 
 Il est possible de filtrer par fruit en cliquant tout simplement sur le libellé du fruit en haut à droite, exemple :
 ![Rendu final filtre](/screenshots/Tableau%20Desktop%20-%20map%20-%20filtre%20pommier%20paris.PNG)
