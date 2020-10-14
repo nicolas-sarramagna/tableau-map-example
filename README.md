@@ -1,10 +1,7 @@
-# Exemple de Map avec Tableau Desktop
-Exemple d'utilisation de map avec Tableau Desktop (Tableau Software) : cueillette d'automne de fruits à Paris
-
 # Objectif
-Ce repository présente un exemple d'utilisation d'une carte dans Tableau Desktop.
+Ce repository présente un exemple d'utilisation d'une carte géographique avec Tableau Desktop (Tableau Software).
 
-Le cas d'usage est le suivant : localisation d'arbres fruitiers (pommmier, poirier, figuier, châtaignier) à cueillette automnale.
+Le cas d'usage est le suivant : localisation d'arbres fruitiers (pommmier, poirier, figuier, châtaignier) à cueillette automnale à Paris.
 
 Les données utilisées sont accessibles en Open Data au lien qui suit : [open-data-paris-arbres](https://opendata.paris.fr/explore/dataset/les-arbres/export/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable
 ).
@@ -32,7 +29,7 @@ Il est proposé de récupérer les données au format csv (~31Mo) :
 
 ![get_data](/screenshots/get_data.png)
 
-## Chargement dans Tableau Desktop
+## Chargement des données dans Tableau Desktop
 A l'ouverture de Tableau Desktop, ouvrir une Connexion par 'Dans un fichier >  Fichier texte'
 
 ![open_file](/screenshots/01_open_file.PNG)
@@ -41,7 +38,8 @@ et sélectionner le fichier  **les-arbres.csv**
 
 ## Création des données géographiques
 Après avoir chargé les données, on va créer les coordonnées géographiques.
-Faire un clic droit sur 'Geo Point 2D' puis 'Transformer > Scinder'
+
+Faire un clic droit sur 'Geo Point 2D' puis 'Transformer > Scinder' pour récupérer la latitude et la longitude dans 2 champs distincts.
 
 ![conversion_lat_lon](/screenshots/screenshot_tableau_map%20(1).png)
 
@@ -50,14 +48,14 @@ Le résultat donne :
 
 Faire un clic droit sur 'Geo Point 2D - Scinder 1' puis 'Renommer' pour le renommer par 'latitude'.
 
-Faire ensuite clic droit sur 'latitude' pour le convertir en latitude géographique pour tableau par 'Rôle géographique' > 'Latitude'.
+Faire ensuite clic droit sur 'latitude' pour le convertir en latitude géographique pour Tableau par 'Rôle géographique' > 'Latitude'.
 
 ![conversion_lat](/screenshots/screenshot_tableau_map%20(3).png)
 
 Renommer également le champ 'Geo Point 2D - Scinder 2' en 'longitude' et le convertir en longitude géographique par clic droit, 'Rôle géographique' > 'Longitude'.
 
 ## Mise en place des filtres
-On va mettre en place 2 filtres : un sur les arbres voulus, un sur une hauteur minimale pertinente de récolte (2m).
+On va mettre en place 2 filtres : un sur les arbres voulus, un sur une hauteur minimale d'arbre pour une récolte, disons 2m.
 
 Sélectionner le champ 'Libelle Francais' et glisser le dans 'Filtres'
 
