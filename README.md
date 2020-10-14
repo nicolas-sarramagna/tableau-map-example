@@ -29,10 +29,14 @@ Vous trouverez ci-dessous les étapes détaillées de construction du tableau de
 On récupère les données par ce lien [open-data-paris-arbres](https://opendata.paris.fr/explore/dataset/les-arbres/export/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable).
 
 Il est proposé de récupérer les données au format csv (~31Mo) :
+
 ![get_data](/screenshots/get_data.png)
 
 ## Chargement dans Tableau Desktop
+A l'ouverture de Tableau Desktop, ouvrir une Connexion par 'Dans un fichier >  Fichier texte'
 ![open_file](/screenshots/01_open_file.PNG)
+et sélectionner les-arbres.csv
+
 ## Création des données géographiques
 ![conversion_lat_lon](/screenshots/screenshot_tableau_map%20(1).png)
 ![conversion_scinder](/screenshots/screenshot_tableau_map%20(2).png)
