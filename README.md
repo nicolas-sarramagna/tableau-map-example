@@ -34,7 +34,9 @@ Il est proposé de récupérer les données au format csv (~31Mo) :
 
 ## Chargement dans Tableau Desktop
 A l'ouverture de Tableau Desktop, ouvrir une Connexion par 'Dans un fichier >  Fichier texte'
+
 ![open_file](/screenshots/01_open_file.PNG)
+
 et sélectionner les-arbres.csv
 
 ## Création des données géographiques
