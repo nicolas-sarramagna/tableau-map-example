@@ -17,10 +17,10 @@ Il est possible de filtrer par fruit en cliquant tout simplement sur le libellé
  - le classeur Tableau Desktop : **[Tableau_map_cueillette_automnale_fruits_paris.twb](Tableau_map_cueillette_automnale_fruits_paris.twb)**
 Le classeur a été construit avec Tableau Desktop version 2020.3 mais il est compatible avec d'anciennes versions.
 
-Niveau : débutant
-
 # Etapes détaillées de construction
 Vous trouverez ci-dessous les étapes détaillées de construction du tableau de bord.
+
+Niveau : débutant.
 
 ## Récupération des données
 On récupère les données par ce lien [open-data-paris-arbres](https://opendata.paris.fr/explore/dataset/les-arbres/export/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable).
