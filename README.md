@@ -50,9 +50,11 @@ Le résultat donne :
 
 Faire un clic droit sur 'Geo Point 2D - Scinder 1' puis 'Renommer' pour le renommer par 'latitude'.
 
+Faire ensuite clic droit sur 'latitude' pour le convertir en latitude géographique pour tableau par 'Rôle géographique' > 'Latitude'.
+
 ![conversion_lat](/screenshots/screenshot_tableau_map%20(3).png)
 
-Renommer également le champ 'Geo Point 2D - Scinder 2' en 'longitude'
+Renommer également le champ 'Geo Point 2D - Scinder 2' en 'longitude' et le convertir en longitude géographique par clic droit, 'Rôle géographique' > 'Longitude'.
 
 ## Mise en place des filtres
 On va mettre en place 2 filtres : un sur les arbres voulus, un sur une hauteur minimale pertinente de récolte (2m).
@@ -78,12 +80,32 @@ puis sur l'écran suivant 'Minimum' et mettre 2 et OK
 ![filtre_hauteur_val](/screenshots/screenshot_tableau_map%20(8).png)
 
 ## Création de la map
+On va créer la carte de représentation des données.
+
+Sélectionner les champs 'latitude' et 'longitude'
+
 ![lat_lon](/screenshots/screenshot_tableau_map%20(9).png)
+
+puis glisse les dans Lignes par exemple
+
 ![lat_lon_positionne](/screenshots/screenshot_tableau_map%20(11).png)
+
+Cliquer ensuite sur 'Montre-moi' et sur la carte 
+
 ![lat_lon_map](/screenshots/screenshot_tableau_map%20(12).png)
+
+Le résultat produit donne la carte ci-dessous :
+
 ![lat_lon_map_point](/screenshots/screenshot_tableau_map%20(13).png)
+
+Pour naviguer sur la carte, cliquer sur la carte sur la flèche et sélectionner la fonction dite 'Panoramique' (double-flèche croisée)
+
 ![lat_lon_map_view](/screenshots/screenshot_tableau_map%20(14).png)
+
+Cliquer ensuite sur 'Carte' > 'Cartes d'arrière-plan' > 'Rues' pour une meilleure vision des lieux sur la carte 
+
 ![lat_lon_map_rue](/screenshots/screenshot_tableau_map%20(15).png)
+
 ## Mise en forme minimale
 ![lat_lon_map_libelle](/screenshots/screenshot_tableau_map%20(16).png)
 ![lat_lon_map_libelle_view](/screenshots/screenshot_tableau_map%20(17).png)
