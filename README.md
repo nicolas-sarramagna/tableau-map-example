@@ -20,20 +20,45 @@ Il est possible de filtrer par fruit en cliquant tout simplement sur le libellé
  - le classeur Tableau Desktop : **[Tableau_map_cueillette_automnale_fruits_paris.twb](Tableau_map_cueillette_automnale_fruits_paris.twb)**
 Le classeur a été construit avec Tableau Desktop version 2020.3 mais il est compatible avec d'anciennes versions.
 
+Niveau : débutant
+
 # Etapes détaillées de construction
-TODO
+
 ## Récupération des données
 TODO
 ## Chargement dans Tableau Desktop
-TODO
+![open_file](/screenshots/01_open_file.PNG)
 ## Création des données géographiques
-TODO
+![conversion_lat_lon](/screenshots/screenshot_tableau_map%20(1).png)
+![conversion_scinder](/screenshots/screenshot_tableau_map%20(2).png)
+![conversion_lat](/screenshots/screenshot_tableau_map%20(3).png)
+
 ## Mise en place des filtres
-TODO
+![filtre_libelle](/screenshots/screenshot_tableau_map%20(4).png)
+![filtre_libelle_detail](/screenshots/screenshot_tableau_map%20(5).png)
+![filtre_hauteur](/screenshots/screenshot_tableau_map%20(6).png)
+![filtre_hauteur_att](/screenshots/screenshot_tableau_map%20(7).png)
+![filtre_hauteur_val](/screenshots/screenshot_tableau_map%20(8).png)
 ## Création de la map
-TODO
+![lat_lon](/screenshots/screenshot_tableau_map%20(9).png)
+![lat_lon_positionne](/screenshots/screenshot_tableau_map%20(11).png)
+![lat_lon_map](/screenshots/screenshot_tableau_map%20(12).png)
+![lat_lon_map_point](/screenshots/screenshot_tableau_map%20(13).png)
+![lat_lon_map_view](/screenshots/screenshot_tableau_map%20(14).png)
+![lat_lon_map_rue](/screenshots/screenshot_tableau_map%20(15).png)
 ## Mise en forme minimale
-TODO
+![lat_lon_map_libelle](/screenshots/screenshot_tableau_map%20(16).png)
+![lat_lon_map_libelle_view](/screenshots/screenshot_tableau_map%20(17).png)
+![lat_lon_map_color](/screenshots/screenshot_tableau_map%20(18).png)
+![lat_lon_map_color_view](/screenshots/screenshot_tableau_map%20(19).png)
+![lat_lon_map_color_modify_1](/screenshots/screenshot_tableau_map%20(20).png)
+![lat_lon_map_color_modify_2](/screenshots/screenshot_tableau_map%20(21).png)
+![lat_lon_map_color_modify_3](/screenshots/screenshot_tableau_map%20(22).png)
+![libelle_name](/screenshots/screenshot_tableau_map%20(26).png)
+![libelle_name_view](/screenshots/screenshot_tableau_map%20(27).png)
+![board_new](/screenshots/screenshot_tableau_map%20(23).png)
+![board_map](/screenshots/screenshot_tableau_map%20(24).png)
+![board_title](/screenshots/screenshot_tableau_map%20(25).png)
 # Extrapolation
 Pour étendre ce cas d'usage, une carte (Web) plus étendue sur la base de données publiques et contributives est disponible à cette adresse [http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr](http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr)
 
