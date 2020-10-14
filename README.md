@@ -37,19 +37,46 @@ A l'ouverture de Tableau Desktop, ouvrir une Connexion par 'Dans un fichier >  F
 
 ![open_file](/screenshots/01_open_file.PNG)
 
-et sélectionner les-arbres.csv
+et sélectionner le fichier  **les-arbres.csv**
 
 ## Création des données géographiques
+Après avoir chargé les données, on va créer les coordonnées géographiques.
+Faire un clic droit sur 'Geo Point 2D' puis 'Transformer > Scinder'
+
 ![conversion_lat_lon](/screenshots/screenshot_tableau_map%20(1).png)
+
+Le résultat donne :
 ![conversion_scinder](/screenshots/screenshot_tableau_map%20(2).png)
+
+Faire un clic droit sur 'Geo Point 2D - Scinder 1' puis 'Renommer' pour le renommer par 'latitude'.
+
 ![conversion_lat](/screenshots/screenshot_tableau_map%20(3).png)
 
+Renommer également le champ 'Geo Point 2D - Scinder 2' en 'longitude'
+
 ## Mise en place des filtres
+On va mettre en place 2 filtres : un sur les arbres voulus, un sur une hauteur minimale pertinente de récolte (2m).
+
+Sélectionner le champ 'Libelle Francais' et glisser le dans 'Filtres'
+
 ![filtre_libelle](/screenshots/screenshot_tableau_map%20(4).png)
+
+puis sélectionner les arbres suivants : 'Châtaignier', 'Figuier', 'Poirier à fruits', 'Pommier à fruits'
+
 ![filtre_libelle_detail](/screenshots/screenshot_tableau_map%20(5).png)
+
+Sélectionner ensuite 'Hauteur(m)' et glisser le dans 'Filtres'
+
 ![filtre_hauteur](/screenshots/screenshot_tableau_map%20(6).png)
+
+Sélectionner 'Attribut' 
+
 ![filtre_hauteur_att](/screenshots/screenshot_tableau_map%20(7).png)
+
+puis sur l'écran suivant 'Minimum' et mettre 2 et OK
+
 ![filtre_hauteur_val](/screenshots/screenshot_tableau_map%20(8).png)
+
 ## Création de la map
 ![lat_lon](/screenshots/screenshot_tableau_map%20(9).png)
 ![lat_lon_positionne](/screenshots/screenshot_tableau_map%20(11).png)
