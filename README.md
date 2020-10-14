@@ -96,7 +96,7 @@ Le résultat produit donne la carte ci-dessous :
 
 ![lat_lon_map_point](/screenshots/screenshot_tableau_map%20(13).png)
 
-Pour naviguer sur la carte, cliquer sur la carte sur la flèche et sélectionner la fonction dite 'Panoramique' (double-flèche croisée)
+Pour naviguer plus aisément sur la carte, cliquer sur la carte sur la flèche et sélectionner la fonction dite 'Panoramique' (double-flèche croisée)
 
 ![lat_lon_map_view](/screenshots/screenshot_tableau_map%20(14).png)
 
