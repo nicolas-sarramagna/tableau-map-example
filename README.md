@@ -1,5 +1,5 @@
-# tableau-map-example
-Exemple d'utilisation de map avec Tableau Software (Tableau Desktop) : cueillette d'automne de fruits à Paris
+# Exemple de Map avec Tableau Desktop
+Exemple d'utilisation de map avec Tableau Desktop (Tableau Software) : cueillette d'automne de fruits à Paris
 
 # Objectif
 Ce repository présente un exemple d'utilisation d'une carte dans Tableau Desktop.
@@ -23,9 +23,14 @@ Le classeur a été construit avec Tableau Desktop version 2020.3 mais il est co
 Niveau : débutant
 
 # Etapes détaillées de construction
+Vous trouverez ci-dessous les étapes détaillées de construction du tableau de bord.
 
 ## Récupération des données
-TODO
+On récupère les données par ce lien [open-data-paris-arbres](https://opendata.paris.fr/explore/dataset/les-arbres/export/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable).
+
+Il est proposé de récupérer les données au format csv (~31Mo) :
+![get_data](/screenshots/get_data.png)
+
 ## Chargement dans Tableau Desktop
 ![open_file](/screenshots/01_open_file.PNG)
 ## Création des données géographiques
