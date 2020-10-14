@@ -107,18 +107,54 @@ Cliquer ensuite sur 'Carte' > 'Cartes d'arrière-plan' > 'Rues' pour une meilleu
 ![lat_lon_map_rue](/screenshots/screenshot_tableau_map%20(15).png)
 
 ## Mise en forme minimale
+On va améliorer la mise en forme de la carte.
+
+Rajouter le nom de l'arbre sur les points de la carte en sélectionnant 'Libelle Francais' et en le glissant sur 'Etiquettes'.
+
 ![lat_lon_map_libelle](/screenshots/screenshot_tableau_map%20(16).png)
+
+Le résultat est le suivant :
+
 ![lat_lon_map_libelle_view](/screenshots/screenshot_tableau_map%20(17).png)
+
+Afin d'avoir des couleurs différentes par arbre, sélectionner 'Libelle Francais' et le glisser sur 'Couleur'.
+
 ![lat_lon_map_color](/screenshots/screenshot_tableau_map%20(18).png)
+
+Le résultat est le suivant :
+
 ![lat_lon_map_color_view](/screenshots/screenshot_tableau_map%20(19).png)
+
+On personalise les couleurs en cliqaunt sur 'Couleur' > 'Modifier les couleurs'
+
 ![lat_lon_map_color_modify_1](/screenshots/screenshot_tableau_map%20(20).png)
+
+puis on sélectionner chaque libellé d'arbre et on clique sur la couleur voulue :
+
 ![lat_lon_map_color_modify_2](/screenshots/screenshot_tableau_map%20(21).png)
+
 ![lat_lon_map_color_modify_3](/screenshots/screenshot_tableau_map%20(22).png)
-![libelle_name](/screenshots/screenshot_tableau_map%20(26).png)
-![libelle_name_view](/screenshots/screenshot_tableau_map%20(27).png)
-![board_new](/screenshots/screenshot_tableau_map%20(23).png)
-![board_map](/screenshots/screenshot_tableau_map%20(24).png)
+
+On change le libellé de 'Libelle Francais' en 'Fruit' pour le résultat suivant :
+
 ![board_title](/screenshots/screenshot_tableau_map%20(25).png)
+
+On finalise en créant le tableau de bord :
+
+![libelle_name](/screenshots/screenshot_tableau_map%20(23).png)
+
+Sélectionner la feuille et la glisser dans l'espace central
+
+![libelle_name_view](/screenshots/screenshot_tableau_map%20(24).png)
+
+On propose de masquer le titre par un clic-droit sur la zone du titre puis 'Masquer le titre'
+
+![board_new](/screenshots/screenshot_tableau_map%20(25).png)
+
+Ce qui donne le résultat final :
+
+![Rendu final](/screenshots/Tableau%20Desktop%20-%20map%20-%20cueillette%20automnale%20de%20fruits%20paris%20v2.PNG)
+
 # Extrapolation
 Pour étendre ce cas d'usage, une carte (Web) plus étendue sur la base de données publiques et contributives est disponible à cette adresse [http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr](http://fallingfruit.org/?c=forager%2Cfreegan&locale=fr)
 
